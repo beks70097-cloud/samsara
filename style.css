@@ -1,0 +1,199 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+.conteiner {
+  width: 70%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: rgb(70, 48, 48);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+
+  .headerNav {
+    display: flex;
+    gap: 50px;
+  }
+  .headerNiv {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 160px;
+  align-items: center;
+
+  .heroNav {
+    h1 {
+      font-family: Roboto;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 134%;
+      letter-spacing: 0%;
+    }
+
+    .hh {
+      color: red;
+    }
+
+    p {
+      font-family: Roboto;
+      font-weight: 400px;
+      font-size: 20px;
+      line-height: 145%;
+      letter-spacing: 0%;
+      margin-top: 30px;
+    }
+    button {
+      width: 161px;
+      height: 53px;
+      border-radius: 4px;
+      padding-top: 12px;
+      padding-right: 32px;
+      padding-bottom: 12px;
+      padding-left: 32px;
+      gap: 10px;
+      margin-top: 30px;
+      background-color: #ee4248;
+      color: white;
+      border: none;
+    }
+  }
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 160px;
+  align-items: center;
+
+  h2 {
+    font-family: Roboto;
+    font-weight: 500px;
+    font-size: 32px;
+    line-height: 134%;
+    letter-spacing: 0%;
+    color: red;
+    span {
+      color: black;
+    }
+  }
+  p {
+    font-family: Roboto;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-top: 30px;
+
+    span {
+      color: red;
+    }
+  }
+}
+
+.product {
+  h2 {
+    font-family: Roboto;
+    font-weight: 500px;
+    font-size: 32px;
+    line-height: 134%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 190px;
+  }
+
+  .cardPro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+
+    .card {
+      h3 {
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 28px;
+        color: #ee4248;
+        line-height: 134%;
+        letter-spacing: 0%;
+      }
+
+      p {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 150%;
+        letter-spacing: 0%;
+      }
+
+      button {
+        width: 119;
+        height: 42;
+        top: 314px;
+        left: 24px;
+        border-radius: 4px;
+        padding-top: 8px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        gap: 10px;
+        background-color: #ee4248;
+        border: none;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  margin-top: 150px;
+  gap: 70px;
+
+  h5 {
+    font-family: Roboto;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 7px;
+  }
+
+  p {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 149%;
+    letter-spacing: 0%;
+    color: #263238;
+  }
+}
+
+.footer {
+  h3 {
+    font-family: Roboto;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #ee4248;
+  }
+}
